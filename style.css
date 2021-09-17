@@ -80,6 +80,7 @@ div {
   animation-duration: 4s;
   animation-delay: 7s;
   animation-fill-mode: forwards;
+  cursor: pointer;;
 }
 
 #btn-iniciar:hover {
@@ -172,6 +173,7 @@ div {
   animation-duration: 4s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
 .next-btn1:hover {
