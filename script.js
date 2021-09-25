@@ -179,7 +179,7 @@ btnIniciar.addEventListener('click', () => {
                                           nextBtn5.addEventListener('click', () => {
                                             newDiv.remove();
                                             const anotherDiv = document.createElement('div');
-                                            anotherDiv.innerText = 'Espero que o nosso dia seja muito feliz, assim como eu sou feliz contigo. Amo-te minha princesa!';
+                                            anotherDiv.innerText = 'Espero que o nosso dia seja muito feliz, assim como eu sou feliz contigo. Amo-te, minha princesa!';
                                             anotherDiv.id = 'final-text';
                                             body.appendChild(anotherDiv);
                                           })
