@@ -139,7 +139,7 @@ btnIniciar.addEventListener('click', () => {
                                   newDiv.appendChild(input3);
                                   input3.addEventListener('keydown', (e) => {
                                     if (e.code === 'Enter') {
-                                      if (e.target.value.toLowerCase() === 'você me faz tão bem' || 'pra você acreditar') {
+                                      if (e.target.value.toLowerCase() === 'você me faz tão bem' || e.target.value.toLowerCase() ==='pra você acreditar') {
                                         newDiv.innerHTML = '';
                                         const nextBtn4 = document.createElement('button');
                                         nextBtn4.className = 'next-btn1';
